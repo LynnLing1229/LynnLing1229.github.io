@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: grey;
+  color: grey;
+}
+
+ul {
+  list-style: none;
+}
+
+#intro-graph {
+  position: relative;
+  width: 100%;
+}
+
+#intro-graph img {
+  width: 100%;
+  position: relative;
+  padding: 0;
+  filter: brightness(70%);
+}
+
+#intro-graph ul {
+  position: absolute;
+  top: 50px;
+  right: 150px;
+}
+
+#intro-graph li {
+  padding-left: 28px;
+  margin-bottom: 5px;
+  float: left;
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#intro-content {
+  width: 690px;
+  height: 90px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 10px 30px 10px;
+  color: white;
+}
+
+#intro-content h1 {
+  font-size: 50px;
+  margin-bottom: 12px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#intro-content p {
+  font-size: 25px;
+  font-weight: lighter;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.introduction {
+  width: 100%;
+  background-color: rgb(238, 238, 238);
+  margin-top: -5px;
+}
+
+.introduction-wrap {
+  width: 800px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+  background-color: rgb(238, 238, 238);
+  color: black;
+}
+
+.introduction-wrap h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+.introduction-wrap p {
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+
+.introduction-wrap a {
+  color: rgb(100, 100, 100);
+}
+.introduction-wrap a:hover {
+  color: grey;
+}
+
+.introduction-wrap blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  margin-bottom: 0px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.footer-navigation {
+  position: relatve;
+  background-color: black;
+  height: 35px;
+  width: 100%;
+  border-bottom: grey solid;
+}
+
+.footer-navigation ul {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.footer-navigation li {
+  padding-left: 28px;
+  float: left;
+  font-size: 14px;
+  margin: 10px 0px;
+}
+
+.footer-contact-information {
+  background-color: black;
+  width: 100%;
+  height: 220px;
+}
+
+.footer-wrap {
+  color: white;
+  width: 980px;
+  height: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+}
+
+.footer-list {
+  width: 120px;
+}
+
+.footer-list h4 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.footer-list li {
+  margin-bottom: 10px;
+  font-size: 12px;
+  margin-left: 2px;
+}

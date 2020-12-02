@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Covid-19 Project</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="css/covid19-project.css" />
+  </head>
+
+  <body>
+    <header>
+      <div id="intro-graph">
+        <img
+          src="img/covid19.jpg"
+          alt="A background picture of the covid19-project."
+        />
+
+        <nav role="navigation" aria-labelledby="mainnavheader">
+          <ul id="mainnavheader">
+            <li><a href="homepage.html">Homepage</a></li>
+            <li><a href="https://github.com/LynnLing1229/Say-It">GitHub</a></li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1d7ZchOYHugZKHRezAwO0Pvnp9aVCT-VH/view?usp=sharing"
+                >Resume</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div id="intro-content">
+          <h1>COVID-19 Report Generator</h1>
+          <hr />
+          <p>Everything about COVID</p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="introduction">
+        <nav aria-labelledby="project-introduction">
+          <article class="introduction-wrap" id="project-introduction">
+            <h2>COVID-19 Report Generator</h2>
+            <p>
+              This is a natural language report generator that generates a short
+              snapshot report of COVID-19 given a specific location and date.
+              <br />
+              <br />
+              The goal of this generator is help people better understand the
+              situation of COVID-19 and take proper measures under different
+              circumstances. By this generator, people can simply spend a few
+              minitues reading the report instead of getting lost in enormous
+              data.
+              <br />
+              <br />
+              This generator includes two parts, a data processor and a natural
+              language processor. The data processor is responsible for
+              pre-processing of data related to COVID-19. It first collects data
+              from public COVID-19 dataset like
+              <a href="https://github.com/nytimes/covid-19-data"
+                ><i>New York Times Coronavirus Dataset</i></a
+              >, then processes data according to different algorithms, and
+              finally stores results as csv files. <br />
+              <br />
+              The natural language processor is reponsible for generating a
+              four-paragraphs report based on the processed data. The generated
+              report includes tendency, comparation, suggestions, facts and
+              basically everything a person need in the pandemic.
+              <br /><br />
+              The following is an example of the report:
+            </p>
+
+            <blockquote>
+              Health department reported a total of 128 new COVID-19 fatalities
+              on Thursday 23 April 2020 in California, which brings the total
+              number of COVID-19 fatalities across the state to 1,553. It is
+              currently ranked 8 in the nation, following Illinois and
+              Connecticut. Based on the data from the past ten days, cumulative
+              deaths of this region is in a rising channel and today's data
+              shows a sign of upward breakthrough.
+              <br /><br />
+              It is newly reported that growth rate climbed to 40. 5%, going up
+              by 2. 8%, which is slightly higher than that of last week.
+              Similarly, it is newly reported that newly confirmed cases climbed
+              to 11,392, going up by 43. 3%, which is dramatically higher than
+              that of last week. It is hard to say that situation is getting
+              better, and people living in related regions shall keep track of
+              further updates on COVID-19. In addition, cumulative death cases
+              recorded 1,553 in total. Similarly, cumulative confirmed cases
+              recorded 39,534 in total. According to the current situation, it
+              may still take some time before people can return to normal social
+              lives. Finally, based on the latest statistics on fatality rate, a
+              drop by 3. 8% can be observed from last week's 5. 3%, which may
+              indicate a downward trend. However, newly death cases, which is
+              currently 582, has had a enormously rise of 37. 6% compared to
+              last week. <br /><br />
+              Moreover, counties in California are in different epidemic
+              situations. Los Angeles county is responsible for 68 newly
+              fatality cases on Thursday 23 April 2020, amounting to about 53
+              percent of the state’s total newly fatality cases. San Diego
+              county ranked the second, only 52 cases less than Los Angeles
+              county. On the other end of the list, Kern county has 1 newly
+              fatality cases on Thursday 23 April 2020. Still, it has far fewer
+              newly fatality cases tied to COVID-19 than all the other counties
+              in California. In conclusion, the epidemic in Kern is relatively
+              controllable and preventable, while those of Los Angeles and San
+              Diego are much more serious. Citizens living in Los Angeles and
+              San Diego should strictly follow the instructions of state
+              governments and reduce unnecessary outdoor activities.
+            </blockquote>
+
+            <p><br /></p>
+          </article>
+        </nav>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-navigation" aria-labelledby="page-navigation">
+        <ul id="page-navigation">
+          <li><a href="homepage.html">Homepage</a></li>
+          <li><a href="https://github.com/LynnLing1229/Say-It">GitHub</a></li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1d7ZchOYHugZKHRezAwO0Pvnp9aVCT-VH/view?usp=sharing"
+              >Resume</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-contact-information">
+        <div class="footer-wrap">
+          <div class="footer-list">
+            <h4>Connect</h4>
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/zijie-huang-2b23b0183/"
+                  >Linkedin</a
+                >
+              </li>
+              <li>
+                <a href="https://twitter.com/lynnuniversity?lang=en">Twitter</a>
+              </li>
+              <li><a href="#">Instagram</a></li>
+              <li>
+                <a href="https://m.facebook.com/profile.php?id=100024666652629"
+                  >Facebook</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-list">
+            <h4>Contact</h4>
+            <ul>
+              <li>+1 555 666 7788</li>
+              <li>
+                <a href="mailto:g5d9j1@u.northwestern.edu"
+                  >g5d9j1@u.northwestern.edu</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
