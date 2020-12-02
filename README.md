@@ -1,2 +1,2 @@
-# personal-portfolio
+# Personal-portfolio
 Project of CS330
